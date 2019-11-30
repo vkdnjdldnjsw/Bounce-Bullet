@@ -21,8 +21,11 @@ You should make sounds folder.
 And implement below sound files.
 
 /sounds/bounce.wav
+
 /sounds/explosion.wav
+
 /sounds/shot.wav
+
 /sounds/turret_firs.wav
 
 
