@@ -1,0 +1,15 @@
+
+# Godot-specific ignores
+*.import
+*.import/
+export.cfg
+export_presets.cfg
+
+basic/Boss Turret.tscn
+basic/assets/boss turret/*
+basic/assets/boss turret/texture/*
+
+# Mono-specific ignores
+.mono/
+
+sounds/*

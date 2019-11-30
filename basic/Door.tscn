@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://basic/assets/door/RigidBody.gd" type="Script" id=1]
+
+[sub_resource type="BoxShape" id=1]
+
+[sub_resource type="CubeMesh" id=2]
+
+[node name="Door" type="Spatial"]
+
+[node name="RigidBody" type="RigidBody" parent="."]
+transform = Transform( 1, 0, -3.55271e-015, 0, 1, 0, -3.55271e-015, 0, 1, 0, -1.19209e-007, 0 )
+mode = 1
+script = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="RigidBody"]
+transform = Transform( 1, 0, 0, 0, 7, 0, 0, 0, 3, -8.9, 7, 0 )
+shape = SubResource( 1 )
+
+[node name="MeshInstance" type="MeshInstance" parent="RigidBody"]
+transform = Transform( 1, 0, -1.06581e-014, 0, 7, 0, 3.55271e-015, 0, 3, -8.9, 7, 0 )
+mesh = SubResource( 2 )
+material/0 = null
