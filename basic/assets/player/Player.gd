@@ -89,6 +89,10 @@ func _physics_process(delta):
         process_movement(delta)
         process_UI(delta)
     else:
+        vel.y += delta*GRAVITY
+        vel.x = 0
+        vel.z = 0
+        vel = move_and_slide(vel,Vector3(0,1,0), 0.05, 4, deg2rad(MAX_SLOPE_ANGLE))
         process_dead(delta)
 
 func process_dead(delta):
