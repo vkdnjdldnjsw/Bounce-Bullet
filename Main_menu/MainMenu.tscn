@@ -319,6 +319,7 @@ custom_colors/font_color = Color( 1, 1, 1, 1 )
 text = "Back"
 
 [node name="Story_Menu" type="VBoxContainer" parent="Panel/Margin_Container"]
+editor/display_folded = true
 visible = false
 margin_right = 1200.0
 margin_bottom = 600.0
@@ -332,18 +333,18 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/normal_font = SubResource( 8 )
 bbcode_text = "When AD 2098.
-In the ashes of nuclear war, humans rise to fight the machines that dominated the earth.
-Machines are fighting persistently to exterminate humans, and the insurgents are fighting unavoidably with the machines.
-The leader of the machines and the military computer Finima hid his main core under load.
+In the ashes of nuclear war, humans rise to fight the robots that dominated the earth.
+Robots are fighting persistently to exterminate humans, and the insurgents are fighting unavoidably with the machines.
+The leader of the robots and the military computer Finima hid his main core under load.
 The protagonist Astro finds out where Finima's main core is in constant search. 
 Astro sneaks in there to destroy the main core.
 However, when a robot finds a human, it kills at 100% accuracy.
 In trouble, Astro struggles with robots in the center of the enemy…"
 tab_size = 9
 text = "When AD 2098.
-In the ashes of nuclear war, humans rise to fight the machines that dominated the earth.
-Machines are fighting persistently to exterminate humans, and the insurgents are fighting unavoidably with the machines.
-The leader of the machines and the military computer Finima hid his main core under load.
+In the ashes of nuclear war, humans rise to fight the robots that dominated the earth.
+Robots are fighting persistently to exterminate humans, and the insurgents are fighting unavoidably with the machines.
+The leader of the robots and the military computer Finima hid his main core under load.
 The protagonist Astro finds out where Finima's main core is in constant search. 
 Astro sneaks in there to destroy the main core.
 However, when a robot finds a human, it kills at 100% accuracy.
