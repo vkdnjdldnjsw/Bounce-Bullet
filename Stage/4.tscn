@@ -4,7 +4,7 @@
 [ext_resource path="res://basic/Walls/ThreeWall.tscn" type="PackedScene" id=2]
 [ext_resource path="res://basic/Walls/TwoWall.tscn" type="PackedScene" id=3]
 [ext_resource path="res://basic/Walls/OneWall.tscn" type="PackedScene" id=4]
-[ext_resource path="res://basic/Turret.tscn" type="PackedScene" id=5]
+[ext_resource path="res://basic/Turret2.tscn" type="PackedScene" id=5]
 [ext_resource path="res://basic/Door.tscn" type="PackedScene" id=6]
 [ext_resource path="res://basic/WorldEnvironment.tscn" type="PackedScene" id=7]
 
@@ -13,6 +13,7 @@
 [node name="Player" parent="." instance=ExtResource( 1 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 18, 0, 0 )
 current_stage = 4
+Max_Ammo = 3
 
 [node name="Spatial" parent="." instance=ExtResource( 2 )]
 transform = Transform( -1, 0, -8.74228e-008, 0, 1, 0, 8.74228e-008, 0, -1, 40, 0, 0 )
@@ -31,14 +32,8 @@ transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -40, 
 [node name="Blocked_Cave" parent="." instance=ExtResource( 2 )]
 transform = Transform( -4.37114e-008, 0, 1, 0, 1, 0, -1, 0, -4.37114e-008, -40, 0, 20 )
 
-[node name="Turret4" parent="Blocked_Cave" instance=ExtResource( 5 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -4, 0, 4.5 )
-
-[node name="Turret5" parent="Blocked_Cave" instance=ExtResource( 5 )]
+[node name="Turret" parent="Blocked_Cave" instance=ExtResource( 5 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, 0, 0, 0 )
-
-[node name="Turret6" parent="Blocked_Cave" instance=ExtResource( 5 )]
-transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -4, 0, -4.5 )
 
 [node name="Blocked_Cave2" parent="." instance=ExtResource( 2 )]
 transform = Transform( -4.37114e-008, 0, -1, 0, 1, 0, 1, 0, -4.37114e-008, -40, 0, -20 )

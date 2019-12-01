@@ -1,6 +1,6 @@
 extends Control
 
-var STAGE_NUM = 22
+var STAGE_NUM = 13
 var MAX_STAGE_PER_PAGE = 10
 var start_menu
 var stage_menu
